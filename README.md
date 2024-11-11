@@ -3,7 +3,7 @@ Voici un exemple de fichier README pour expliquer comment exécuter le code :
 
 ---
 
-# Object Detection with Tkinter and MediaPipe
+# Object Detection with MediaPipe
 
 Ce projet permet de capturer une vidéo en temps réel depuis votre caméra et d'effectuer une détection d'objets à l'aide de l'API **MediaPipe**. Il utilise un modèle **EfficientDet** pour détecter des objets et affiche les résultats avec des boîtes de délimitation dans une interface graphique construite avec **Tkinter**.
 
@@ -49,10 +49,7 @@ Avant d'exécuter le script, vous devez avoir installé **Python** et créer un 
 
 ## Exécution du code
 
-1. **Télécharger le modèle**  
-   Le script va automatiquement télécharger le modèle `efficientdet.tflite` à partir de l'URL fournie, si le fichier n'est pas déjà présent dans le répertoire du projet. 
-
-2. **Lancer le script**  
+1. **Lancer le script**  
    Exécutez le script Python en utilisant la commande suivante dans votre terminal :
    ```bash
    python Detect_object_adhoc.py
