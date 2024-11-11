@@ -1,7 +1,4 @@
 # Test_Technique_MyTeam_AI
-Voici un exemple de fichier README pour expliquer comment exécuter le code :
-
----
 
 # Object Detection with MediaPipe
 
