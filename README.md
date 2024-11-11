@@ -56,7 +56,7 @@ Avant d'exécuter le script, vous devez avoir installé **Python** et créer un 
    Dans l'interface graphique, vous avez trois boutons :
    - **Start Video** : Démarre la capture vidéo et la détection d'objets.
    - **Stop Video** : Arrête la capture vidéo.
-   -** Quit**: Quitte la fenetre apres arret de la video
+   - **Quit**: Quitte la fenetre apres arret de la video
 
 ## Fonctionnement du code
 
