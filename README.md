@@ -60,7 +60,6 @@ Avant d'exécuter le script, vous devez avoir installé **Python** et créer un 
 
 ## Fonctionnement du code
 
-- Le modèle `EfficientDet` est téléchargé (si nécessaire) et chargé pour être utilisé dans le script.
 - La caméra est activée pour capturer la vidéo en direct.
 - Le modèle effectue une détection d'objets sur chaque frame de la vidéo capturée et affiche les résultats dans l'interface graphique.
 - La fenêtre de l'application est redimensionnée pour occuper toute la taille de l'écran.
