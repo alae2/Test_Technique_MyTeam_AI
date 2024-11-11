@@ -29,19 +29,15 @@ Avant d'exécuter le script, vous devez avoir installé **Python** et créer un 
    ```
 
 3. **Activer l'environnement virtuel**  
-   - **Sous Windows :**
+
      ```bash
-     .\myenv\Scripts\activate
-     ```
-   - **Sous macOS/Linux :**
-     ```bash
-     source myenv/bin/activate
+     source myenv/Scripts/activate
      ```
 
 4. **Installer les dépendances**  
-   Une fois l'environnement virtuel activé, installez les bibliothèques nécessaires en exécutant :
+   Une fois l'environnement virtuel activé, installez les bibliothèques nécessaires en exécutant , [upgrade the pip if needed: python.exe -m pip install --upgrade pip]:
    ```bash
-   pip install opencv-python mediapipe pillow requests
+   pip install opencv-python pillow numpy mediapipe==0.10.11 requests
    ```
 
 ## Exécution du code
